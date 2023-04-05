@@ -1,0 +1,36 @@
+{
+  "recommendations": [
+    // vscodeの日本語化
+    "MS-CEINTL.vscode-language-pack-ja",
+    // Pythonスクリプトの実行などの基本的な機能
+    "ms-python.python",
+    // Pythonの静的タイプチェックなどの高度な機能
+    "ms-python.vscode-pylance",
+    // pythonのインデント
+    "KevinRose.vsc-python-indent",
+    // pythonのdocsstringの自動生成拡張機能
+    "njpwerner.autodocstring",
+    // pythonのlinter ruffの拡張機能
+    "charliermarsh.ruff",
+    // python testingの拡張機能
+    "littlefoxteam.vscode-python-test-adapter",
+    // コードの補完
+    "TabNine.tabnine-vscode",
+    // 全角スペースの発見
+    "mosapride.zenkaku",
+    // ファイル、フォルダのアイコンテーマ
+    "PKief.material-icon-theme",
+    // エディタのテーマ
+    "GitHub.github-vscode-theme",
+    // インデントのカラー
+    "oderwat.indent-rainbow",
+    //　英単語のスペル
+    "streetsidesoftware.code-spell-checker",
+    // コードの実行
+    "formulahendry.code-runner",
+    // エラーをわかりやすくする
+    "usernamehw.errorlens",
+    // エディターの設定
+    "EditorConfig.EditorConfig",
+  ]
+}

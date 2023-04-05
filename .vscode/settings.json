@@ -1,0 +1,28 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "GitHub Dark",
+  "[python]": {
+      "editor.defaultFormatter": null,
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+          "source.fixAll": true
+      }
+  },
+  "python.analysis.extraPaths": [
+      "./app"
+  ],
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+  "python.envFile": "${workspaceFolder}/.env",
+  // リンターの設定
+  "python.linting.enabled": true,
+  "ruff.path": ["${workspaceFolder}/.venv/bin/ruff"],
+  // フォーマッターは black を使用
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": "${workspaceFolder}/.venv/bin/black",
+  // type hint linter
+  "python.analysis.typeCheckingMode": "off",
+  "python.linting.mypyEnabled": true,
+  "python.linting.mypyPath": "${workspaceFolder}/.venv/bin/mypy",
+  // docstring は google
+  "autoDocstring.docstringFormat": "google",
+}
